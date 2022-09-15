@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-export default configureStore ({
+const Store = configureStore ({
     reducer: {
         michelisable: null,
     }
 })
+
+export default Store;
 
