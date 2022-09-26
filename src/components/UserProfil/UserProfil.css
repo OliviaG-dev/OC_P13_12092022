@@ -1,2 +1,51 @@
+.userProfil {
+    padding: 0.1rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.userProfil__button{
+    border-color: #6458F5;
+    background-color: #fff;
+    color: #6458F5;
+    font-weight: bold;
+    padding: 0.62rem;
+    width: 10rem;
+}
 
+.userProfil__form {
+    width: 25rem;
+    height: 5.62rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.userProfil__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userProfil__wrapper input {
+    padding: 0.62rem;
+    border: 2px solid #C3CFD9;
+    color: #7f8284;
+}
+
+.userProfil__form__button {
+    justify-content: space-evenly;
+    width: auto;
+    display: flex;
+    background-color: #DFE6ED;;
+}
+
+.button__update, .button__cancel {
+    border-color: #6458F5;
+    background-color: #fff;
+    color: #6458F5;
+    font-weight: bold;
+    padding: 0.62rem;
+    width: 10rem;
+}

@@ -3,14 +3,14 @@
     background-position: 0 -50px;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 18.75rem;
     position: relative;
 }
 
 .home__slider__container {
     position: relative;
     top: 2rem;
-    width: 200px;
+    width: 12.5rem;
     background: white;
     padding: 2rem;
     text-align: left;
@@ -35,29 +35,30 @@
 
 .home__feature__article {
     flex: 1;
-    padding: 2.5rem;
+    padding: 2.5rem 2.5rem 0 2.5rem;
 }
 
 .home__feature__img {
-    width: 100px;
+    width: 5rem;
     border: 10px solid #00bc77;
     border-radius: 50%;
     padding: 1rem;
 }
 
-.home__feature__text {
+.home__feature__title {
     color: #222;
     font-size: 1.25rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
 }
 
+
 /**************Media queries******************/
 
 
 @media (min-width: 920px) {
     .home__slider {
-        height: 400px;
+        height: 25rem;
         background-position: 0% 33%;
     }
 

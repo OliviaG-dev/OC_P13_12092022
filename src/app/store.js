@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
+import { userSlice } from '../features/userSlice';
 
 const Store = configureStore ({
     reducer: {
-        michelisable: null,
+        user: userSlice.reducer,
     }
 })
 
 export default Store;
-
