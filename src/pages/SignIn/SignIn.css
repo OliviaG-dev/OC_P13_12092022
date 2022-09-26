@@ -1,7 +1,7 @@
 .signin {
     box-sizing: border-box;
     background-color: white;
-    width: 300px;
+    width: 18.75rem;
     margin: 0 auto;
     margin-top: 3rem;
     padding: 2rem;
@@ -19,7 +19,7 @@
 }
 
 .signin__wrapper input {
-    padding: 5px;
+    padding: 0.31rem;
     font-size: 1.2rem;
 }
 
@@ -34,11 +34,15 @@
 .signin__submit {
     display: block;
     width: 100%;
-    padding: 8px;
+    padding: 0.5rem;
     font-size: 1.1rem;
     font-weight: bold;
     margin-top: 1rem;
     border-color: #00bc77;
     background-color: #00bc77;
     color: #fff;
+}
+
+.signin__errors {
+    color: rgb(168, 16, 16);
 }

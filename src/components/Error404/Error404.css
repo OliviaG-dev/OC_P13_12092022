@@ -1,0 +1,11 @@
+.error__span {
+    font-size: 13rem;
+    font-weight: 800;
+    color: #6458F5;
+}
+
+.error__p {
+    font-size: 2rem;
+    font-style: italic;
+    color: #C3CFD9;
+}

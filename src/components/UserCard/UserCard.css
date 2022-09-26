@@ -3,11 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
+    border: 2px solid #C3CFD9;
     background-color: #fff;
     width: 80%;
     margin: 0 auto;
-    flex-direction: column;
     padding: 1.5rem;
     box-sizing: border-box;
     text-align: left;
@@ -39,11 +38,11 @@
 .usercard__button {
     display: block;
     width: 100%;
-    padding: 8px;
+    padding: 0.5rem;
     font-size: 1.1rem;
     font-weight: bold;
     margin-top: 1rem;
-    border-color: #00bc77;
-    background-color: #00bc77;
+    border-color: #6458F5;
+    background-color: #6458F5;
     color: #fff;
 }
