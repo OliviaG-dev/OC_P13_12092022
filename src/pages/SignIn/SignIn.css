@@ -45,4 +45,6 @@
 
 .signin__errors {
     color: rgb(168, 16, 16);
+    margin-top: -0.50rem;
+    font-size: 0.7rem;
 }
