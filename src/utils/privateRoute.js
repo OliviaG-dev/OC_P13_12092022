@@ -6,11 +6,10 @@ function PrivateRoute({ children, targetComponent: TargetComponent }) {
     const user = useSelector(userSelector)
     const token = user.token
     
-    if (token !== null ) {
-        return children
+    if (!token) {
+        return <Navigate to="/login" />
     }
-
-    return <Navigate to="/login" />
+    return children
 }
 
 export default PrivateRoute
