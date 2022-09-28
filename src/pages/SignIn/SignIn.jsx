@@ -35,7 +35,7 @@ const SignIn = () => {
   };
 
   useEffect(() => {
-    setErrors(checkForm(values),2000);
+    setErrors(checkForm(values));
   }, [values] );
 
   const handleChange = (e) => {

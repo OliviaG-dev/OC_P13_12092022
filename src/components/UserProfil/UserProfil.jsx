@@ -2,7 +2,7 @@ import "./UserProfil.css"
 import { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { getUserProfile, updateUserProfile } from '../../utils/services'
-import {userSelector, displayUser, disableLoader } from '../../features/userSlice'
+import { userSelector, displayUser, disableLoader } from '../../features/userSlice'
 
 const UserProfil = () => {
     const [editForm, setEditForm] = useState(false)
