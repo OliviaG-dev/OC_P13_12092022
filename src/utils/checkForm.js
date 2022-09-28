@@ -11,7 +11,7 @@ function checkForm(values) {
         errors.email = "email is invalid"
     }
 
-    if(values.password.length < 10) {
+    if(values.password.length < 5 ) {
         errors.password = "password is invalid"
     }
     return errors
